@@ -1,0 +1,121 @@
+.home{
+  padding-bottom: 60px;
+}
+
+.image{
+  width: 300px;
+  border-top-right-radius: 47%;
+  border-top-left-radius: 47%;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.336);
+}
+.title, .title2{
+  font-size: 4.7em;
+  font-family: 'argue', serif;
+  color: #222;
+  width: fit-content;
+}
+.title2{
+  transform: translate(100px, -20px);
+  font-family: 'argue', serif;
+  margin-bottom: -30px;
+}
+
+.subTitle{
+  padding: 10px 0;
+  font-family: 'argue', serif;
+}
+
+.home{
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 90px);
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+}
+
+.textBox{
+  max-width: 400px;
+  padding: 20px;
+  font-size: 1.1em;
+  margin-top: -20px;
+}
+
+.paragraph{
+  text-align: center;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .home{
+    width: 100%;
+  }
+  .container{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 0;
+  }
+  .image{
+    width: 100%;
+    border-radius: 0;
+    background-attachment: fixed;
+  }
+  .imageDiv{
+    height: 300px;
+    overflow: hidden;
+  }
+  .textBox{
+    height: 540px;
+    max-width: 400px;
+  }
+  .paragraph{
+    text-align: center;
+  }
+  .title, .title2{
+    font-size: 3.5em;
+    margin-left: 25px;
+  }
+  .title{
+    transform: translate(30px, -10px);
+  }
+}
+
+@media (max-width: 380px){
+  .title, .title2{
+    font-size: 3.5em;
+    margin-left: 0;
+  } 
+}
+
+@media (min-width:1366px) {
+  .textBox{
+    font-size: 1.2em;
+  }
+  .image{
+    width: 350px;
+  }
+}
+@media (min-width:1600px) {
+  .textBox{
+    font-size: 1.3em;
+  }
+  .image{
+    width: 400px;
+  }
+}
+@media (min-width:1900px) {
+  .textBox{
+    font-size: 1.5em;
+  }
+  .image{
+    width: 450px;
+  }
+}

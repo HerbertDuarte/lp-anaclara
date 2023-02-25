@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Nanum+Myeongjo&family=Raleway:wght@200;400;500;600&display=swap');
+
+@font-face {
+  font-family: 'argue';
+  src: url('/public/Argue.otf') format('opentype'); 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body::-webkit-scrollbar {
+  background-color: #b3d9ef;
+  width: 10px;
 }
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border: 0 0 0 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  margin-top: 90px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(45deg, #D9AFD9 0%, #eccbff 44%, #b3d9ef 83%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
