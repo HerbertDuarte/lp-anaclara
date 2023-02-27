@@ -5,10 +5,11 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import About from "./components/About";
-import Works from "./components/Works";
-import Home from "./components/Home";
-import Email from "./components/Email";
+import About from "./routes/About";
+import Works from "./routes/Works";
+import Home from "./routes/Home";
+import Email from "./routes/Email";
+import Thanks from "./routes/Thanks";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: 'email',
         element: <Email/>
+      },
+      {
+        path:'thanks',
+        element: <Thanks/>
       }
     ],
   },

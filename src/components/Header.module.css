@@ -17,18 +17,23 @@ header{
   background-attachment: fixed;
 }
 
+nav ul:hover :not(:hover){
+  opacity: 0.7;
+}
+
+
 nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  gap: 40px;
 }
 
 nav a{
   text-decoration: none;
   color:black;
+  padding:0 20px;
 }
 .logo{
   text-decoration: none;
@@ -56,8 +61,8 @@ nav a{
 }
 
 @media (max-width: 768px){
-  nav ul{
-    gap:20px;
+  nav a{
+    padding:0 10px;
   }
 
   header{
@@ -66,7 +71,7 @@ nav a{
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 550px){
   .logo{
     display: none;
   }
@@ -78,6 +83,6 @@ nav a{
 
 @media (min-width:1366px) {
   header{
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 }

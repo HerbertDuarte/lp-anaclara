@@ -106,6 +106,12 @@
   padding-bottom: 3px;
 }
 
+@media (max-height:600px) {
+  .home{
+    padding-top: 30px;
+  }
+}
+
 @media (max-width: 768px) {
   .home{
     width: 100%;
@@ -141,6 +147,12 @@
   }
 }
 
+@media (max-width: 550px){
+  .subTitle{
+    padding: 20px 0;
+  }
+}
+
 @media (max-width: 569px) {
   .social .redes{
     padding-top: 0;
@@ -151,28 +163,35 @@
   .title, .title2{
     font-size: 3.5em;
     margin-left: 0;
-  } 
+  }
+}
+@media (max-width: 340px){
+  .textBox{
+    padding: 5px;
+  }
+}
+@media (min-height:680px) {
+    .textBox{
+      height: 485px;
+    }
 }
 
 @media (min-width:1380px) {
+  .textBox{
+    font-size: 1.1em;
+  }
+}
+@media (min-width:1600px) {
   .textBox{
     font-size: 1.2em;
   }
   .image{
     width: 315px;
   }
-}
-@media (min-width:1600px) {
-  .textBox{
-    font-size: 1.3em;
-  }
-  .image{
-    width: 350px;
-  }
   .container{
     gap: 100px;
   }
   .social{
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 }
