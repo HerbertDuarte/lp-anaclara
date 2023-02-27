@@ -54,13 +54,14 @@
 }
 
 .social button{
-  background-color: #333;
+  background-color: #222;
   color: white;
   border: 0;
   padding: 15px 20px;
   font-size: 1.2em;
   font-family: "argue", sans-serif;
-  border-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
   margin: 50px 0 30px 0;
 }
 
@@ -82,7 +83,7 @@
   width: 280px;
   padding: 20px 0;
 }
-.redes p, .redes a {
+ .redes a {
   font-size: 1.1em;
   text-decoration: none;
   color: #222;
@@ -96,6 +97,13 @@
 }
 .redes i{
   font-family: sans-serif;
+}
+.spanTitle{
+  color: #222;
+  font-size: 1.1em;
+  border-bottom: 1px solid #222;
+  margin-bottom: 5px;
+  padding-bottom: 3px;
 }
 
 @media (max-width: 768px) {
@@ -163,6 +171,9 @@
   }
   .container{
     gap: 100px;
+  }
+  .social{
+    font-size: 1.2em;
   }
 }
 @media (min-width:1900px) {

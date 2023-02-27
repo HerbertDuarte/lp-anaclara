@@ -1,36 +1,41 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import About from './components/About';
-import Works from './components/Works'
-import Home from './components/Home';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import About from "./components/About";
+import Works from "./components/Works";
+import Home from "./components/Home";
+import Email from "./components/Email";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <App />,
     children: [
       {
-        path: '/',
-        element: <Home/>
+        path: "/",
+        element: <Home />,
       },
       {
-        path: 'about',
-        element: <About/>
+        path: "about",
+        element: <About />,
       },
       {
-        path: 'works',
-        element: <Works/>
+        path: "works",
+        element: <Works />,
+      },
+      {
+        path: 'email',
+        element: <Email/>
       }
-    ]
-  }
-])
+    ],
+  },
+]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />

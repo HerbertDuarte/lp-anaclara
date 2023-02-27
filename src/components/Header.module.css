@@ -30,14 +30,25 @@ nav a{
   text-decoration: none;
   color:black;
 }
-
 .logo{
+  text-decoration: none;
   font-family: 'argue', serif;
   color: #222;
   font-size: 1.1em;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo svg{
+  color: #444;
+  width: 45px;
+  height: 45px;
+}
+
+.logo > div{
+  display: flex;
   flex-direction: column;
-  text-decoration: none;
 }
 
 .logoText2{

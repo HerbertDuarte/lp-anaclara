@@ -1,0 +1,81 @@
+.title{
+  padding: 40px 20px 20px 20px;
+  font-family: 'argue', sans-serif;
+  font-size: 2em;
+}
+
+.form{
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.email, .message{
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border: 0;
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.384);
+  font-family: 'Raleway', sans-serif;
+  resize: none;
+}
+
+.email::placeholder, .message::placeholder{
+  color: #555;
+}
+
+.email:hover,
+.message:hover,
+.email:focus,
+.message:focus{
+  border: 0;
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.55);
+}
+
+.button{
+  border: 0;
+  outline: 0;
+  background-color: #fcddfc;
+  padding: 10px 20px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 1.1em;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  transition: all .4s;
+}
+.button:hover,
+.button:focus{
+  border: 0;
+  outline: 0;
+  background-color: #d5efff;
+}
+@media (max-width:400px) {
+  .title{
+    font-size: 1.6em;
+  }
+}
+@media (min-width:1380px) {
+  .title{
+    font-size: 2.5em;
+  }
+  .form{
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width:1600px) {
+  .title{
+    font-size: 3em;
+  }
+  .form{
+    font-size: 1.3em;
+  }
+}
