@@ -48,7 +48,7 @@ const Home = () => {
           <div>
             <Link style={{fontFamily:'Raleway , sans-serif'}} className={styles.spanTitle} to="/email">Email</Link>
             <p>anaclaramelo10.acr@gmail.com</p>
-            <Link to="/email">Enviar uma mensagem</Link>
+            <Link className={styles.envEmail} to="/email">Enviar uma mensagem</Link>
           </div>
         </div>
       </div>

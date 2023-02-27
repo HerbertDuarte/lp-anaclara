@@ -39,16 +39,24 @@ body{
   position: relative;
 }
 
+
+
 footer{
   padding: 10px 0;
   background-color: #333;
   color: white;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 footer a{
   text-decoration: none;
   color: #b3c6ef;
+}
+
+section{
+  min-height: calc(100vh - 90px);
 }
 
 @media (min-width:1380px) {

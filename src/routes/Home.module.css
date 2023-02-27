@@ -106,6 +106,10 @@
   padding-bottom: 3px;
 }
 
+.envEmail{
+  font-weight: bold;
+}
+
 @media (max-height:600px) {
   .home{
     padding-top: 30px;

@@ -17,11 +17,6 @@ header{
   background-attachment: fixed;
 }
 
-nav ul:hover :not(:hover){
-  opacity: 0.7;
-}
-
-
 nav ul {
   list-style: none;
   display: flex;
