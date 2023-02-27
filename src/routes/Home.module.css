@@ -109,6 +109,12 @@
 .envEmail{
   font-weight: bold;
 }
+.rede{
+  transition: transform .4s;
+}
+.rede:hover{
+  transform: translateY(-15px);
+}
 
 @media (max-height:600px) {
   .home{
@@ -160,6 +166,10 @@
 @media (max-width: 569px) {
   .social .redes{
     padding-top: 0;
+  }
+
+  .rede:hover{
+    transform: translateX(15px);
   }
 }
 

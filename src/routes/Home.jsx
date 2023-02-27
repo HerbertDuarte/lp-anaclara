@@ -35,17 +35,17 @@ const Home = () => {
       <div className={styles.social}>
         <button>Contatos/Social</button>
         <div className={styles.redes}>
-          <a {...linkInstagram}>
+          <a className={styles.rede} {...linkInstagram}>
             <p className={styles.spanTitle}>Instagram</p>
             <span>1,8k+</span>
             <p>seguidores</p>
           </a>
-          <a {...linkPinterest}>
+          <a className={styles.rede} {...linkPinterest}>
             <p className={styles.spanTitle}>Pinterest</p>
             <span>47+</span>
             <p>fotografias</p>
           </a>
-          <div>
+          <div className={styles.rede}>
             <Link style={{fontFamily:'Raleway , sans-serif'}} className={styles.spanTitle} to="/email">Email</Link>
             <p>anaclaramelo10.acr@gmail.com</p>
             <Link className={styles.envEmail} to="/email">Enviar uma mensagem</Link>
