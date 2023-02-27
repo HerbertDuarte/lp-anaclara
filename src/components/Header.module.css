@@ -81,9 +81,3 @@ nav a{
     font-size: 1.4em;
   }
 }
-
-@media (min-width:1600px) {
-  header{
-    font-size: 1.7em;
-  }
-}
