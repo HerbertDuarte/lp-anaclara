@@ -161,12 +161,26 @@
   .image{
     width: 400px;
   }
+  .container{
+    gap: 100px;
+  }
 }
 @media (min-width:1900px) {
+
   .textBox{
-    font-size: 1.5em;
+    font-size: 1.6em;
+    max-width: 480px;
+  }
+  .paragraph{
+    line-height: 40px;
   }
   .image{
     width: 450px;
+  }
+  .container{
+    gap: 180px;
+  }
+  .social{
+    font-size: 1.4em;
   }
 }

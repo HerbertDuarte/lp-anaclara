@@ -6,7 +6,7 @@ const Home = () => {
 
   const linkInstagram = {
     target: '_blank',
-    href:'https://linkDoInsta.com'
+    href:'https://www.instagram.com/anaclaramelo10/'
   }
 
   const linkPinterest = {

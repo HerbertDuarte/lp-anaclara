@@ -48,3 +48,15 @@ footer a{
   text-decoration: none;
   color: #b3c6ef;
 }
+
+@media (min-width:1380px) {
+  footer{
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width:1600px) {
+  footer{
+    font-size: 1.4em;
+  }
+}
