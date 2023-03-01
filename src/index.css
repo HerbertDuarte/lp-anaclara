@@ -5,6 +5,11 @@
   src: url('/public/Argue.otf') format('opentype'); 
 }
 
+@font-face {
+  font-family: 'chapaza';
+  src: url('/public/Chapaza.ttf') format('truetype'); 
+}
+
 body::-webkit-scrollbar {
   background-color: #b3d9ef;
   width: 10px;

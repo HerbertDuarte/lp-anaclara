@@ -25,10 +25,7 @@ const Home = () => {
           <h1 className={styles.title2}>Clara</h1>
           <h2 className={styles.subTitle}>Modelo de publicidade</h2>
           <p className={styles.paragraph}>
-            Uma verdadeira amante de fotografia, beleza e moda desde muito
-            pequena. Tenho 20 anos, curso Estética e Cosmética e futuramente
-            serei maquiadora profissional. Sempre fui extremamente vaidosa e
-            gosto de me arrumar para qualquer lugar.
+          Aqui na minha página, você encontrará algumas das minhas fotos mais recentes. Cada uma delas representa minha paixão pela moda e pela arte da modelagem. Com minha presença única e habilidades de publicidade, estou pronta para trazer vida a visão criativa de cada projeto que me for confiado.
           </p>
         </div>
       </div>
