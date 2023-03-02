@@ -1,0 +1,21 @@
+.sliderContainer{
+  padding: 20px;
+}
+.slider{
+  display: grid;
+  max-width: 960px;
+  margin: auto;
+  margin-bottom: 40px ;
+}
+.slideDiv{
+  width: 100%;
+  min-width: 170px;
+}
+
+.slideDiv img{
+  width: 100%;
+}
+
+@media (max-width:725px) {
+  
+}
