@@ -1,6 +1,8 @@
 .container{
   padding: 20px;
   padding-bottom: 70px;
+  max-width: 960px;
+  margin: auto;
 }
 .container a{
   text-decoration: none;
