@@ -13,7 +13,7 @@ const About = () => {
           me arrumar para qualquer lugar. Tive uma conexão com a fotografia desde os
           15 anos, quando meus pais me presentearam com uma câmera fotográfica.
         </p>
-        <div className={styles.divImage}><img  className={styles.image1} src="/third-img.jpg" alt="ana clara" /></div>
+        <div className={styles.divImage}><img  className={styles.image1} src="/1240D4F0.JPG" alt="ana clara" /></div>
       </div>
       <div className={styles.div2}>
       <div className={styles.divImage}><img  className={styles.image2} src="/second-img.jpg" alt="ana clara" /></div>
