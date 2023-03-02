@@ -4,22 +4,14 @@ import styles from './Works.module.css'
 
 const Works = () => {
 
-  const slides = [
-    { url: "/slide1.jpeg", title: "Ana Clara" },
-    { url: "/slide2.jpeg", title: "Ana Clara"},
-    { url: "/slide3.jpeg", title: "Ana Clara" },
-    { url: "/slide4.jpeg", title: "Ana Clara"},
-  ];
-
-
-
   return (
-    <section className={styles.worksSection}>
-      <h1 className={styles.title}>Meus trabalhos:</h1>
-      <p className={styles.text}>Trabalho feito para @casademaria.presentes e @dai.acessorios</p>
+    <section className={styles.container}>
+      <h1 className={styles.title}>Meus trabalhos</h1>
+      <p className={styles.text}>Apresentação da nova linha de óculos <a href="https://www.maumau.com.br/oculos-femininos">Mau Mau</a>.</p>
       <div>
-        <Slider slides={slides}/>
+        <Slider/>
       </div>
+      <p className={styles.description}>Trabalho feito para <a href="https://www.instagram.com/casademaria.presentes/">@casademaria.presentes</a> e <a href="https://www.instagram.com/dai.acessorios/">@dai.acessorios</a></p>
     </section>
   )
 }

@@ -26,6 +26,7 @@
   padding-bottom: 20px;
   margin: 20px;
   height: min-content;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.329);
 }
 .image1, .image2{
   width: 100%;
@@ -96,5 +97,14 @@
   }
   .title{
     padding: 20px 5px 10px 5px;
+    font-size: 2.5em;
+    padding: 0;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .title{
+    font-size: 2em;
   }
 }
