@@ -1,6 +1,5 @@
 import Slider from '../components/Slider'
 import styles from './Works.module.css'
-// className={styles.}
 
 const Works = () => {
 
