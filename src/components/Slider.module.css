@@ -3,35 +3,40 @@
 }
 
 .slider{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas:
-  's s s s'
-  ;
-  margin: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  max-width: 920px;
   width: 100%;
-  column-gap: 0;
-
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.315);
-}
-.slideDiv{
-  width: 100%;
-  grid-area: 's';
 }
 
 .slideDiv img{
   width: 100%;
-  height: 100%;
 }
 
-@media (max-width:725px) {
+.slideDiv{ 
+  overflow: hidden;
+  height: 100%;
+  width: 400px;
+  min-width: 137px;
+}
+
+
+@media (max-width:550px){
   .slider{
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    's s'
-    's s'
-    ;
+    flex-wrap: wrap;
+  }
+  .slideDiv{
+    width: 180px;
+  }
+}
+
+@media (max-width:390px){
+  .slider{
+    flex-wrap: wrap;
+  }
+  .slideDiv{
+    width: 50%;
   }
 }
