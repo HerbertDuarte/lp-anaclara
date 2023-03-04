@@ -17,17 +17,17 @@ const Works = () => {
   ];
 
   const slides3 =[
-    "/work3/slide1.jpg",
-    "/work3/slide2.jpg",
+    "/work3/slide1.jpeg",
+    "/work3/slide2.jpeg",
     "/work3/slide3.jpeg",
-    "/work3/slide4.jpg"
+    "/work3/slide4.jpeg"
   ]
 
   const slides4 = [
-    "/work4/slide1.jpg",
-    "/work4/slide2.jpg",
-    "/work4/slide3.jpg",
-    "/work4/slide4.jpg",
+    "/work4/slide1.jpeg",
+    "/work4/slide2.jpeg",
+    "/work4/slide3.jpeg",
+    "/work4/slide4.jpeg",
   ];
   return (
     <section className={styles.container}>
@@ -72,7 +72,7 @@ const Works = () => {
         </p>
 
         <Slider images={slides4} />
-        
+
       </div>
     </section>
   );
