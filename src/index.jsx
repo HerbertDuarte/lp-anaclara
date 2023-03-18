@@ -10,11 +10,13 @@ import Works from "./routes/Works";
 import Home from "./routes/Home";
 import Email from "./routes/Email";
 import Thanks from "./routes/Thanks";
+import NotFound from "./routes/NotFound";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement : <NotFound/>,
     children: [
       {
         path: "/",

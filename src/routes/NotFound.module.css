@@ -1,0 +1,22 @@
+.button{
+  border: 0;
+  outline: 0;
+  background-color: #fcddfc;
+  padding: 10px 20px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 1.1em;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  transition: all .4s;
+  text-decoration: none;
+  display: inline-flex;
+  margin: 20px auto;
+  color: #333;
+}
+.button:hover,
+.button:focus{
+  border: 0;
+  outline: 0;
+  background-color: #d5efff;
+}

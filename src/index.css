@@ -64,6 +64,11 @@ section{
   min-height: calc(100vh - 90px);
 }
 
+.active{
+  color: white;
+  background-color: #444;
+}
+
 @media (min-width:1380px) {
   footer{
     font-size: 1.1em;
