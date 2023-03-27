@@ -12,11 +12,10 @@ import Works from "./routes/Works";
 import Home from "./routes/Home";
 import Email from "./routes/Email";
 import Thanks from "./routes/Thanks";
-<<<<<<< Updated upstream
 import NotFound from "./routes/NotFound";
-=======
 import About from "./routes/About"
->>>>>>> Stashed changes
+
+// router
 
 const router = createBrowserRouter([
   {
