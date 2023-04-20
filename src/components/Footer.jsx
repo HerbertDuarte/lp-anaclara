@@ -2,7 +2,7 @@ const Footer = () => {
 
   const myLink = {
     target:'_blank',
-    href: "https://herbertduarte.vercel.app/images/perfil.png"
+    href: "https://herbertduarte.vercel.app/"
   }
 
   return (
